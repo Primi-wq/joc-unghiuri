@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joc cu Unghiuri</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        canvas { border: 1px solid black; background: #e0f7fa; }
+        #controls { margin: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Joc cu Unghiuri - Nimerește Barca</h1>
+    <div id="controls">
+        <input type="number" id="angle" placeholder="Introduceți unghiul (grade)">
+        <button onclick="shoot()">Trage</button>
+    </div>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <script src="game.js"></script>
+</body>
+</html>
